@@ -15,6 +15,10 @@ public class Health : MonoBehaviour
             damage /= 2;
             health -= damage;
         }
+        else
+        {
+            health -= damage;
+        }
 
         if(health <= 0)
         {
